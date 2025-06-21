@@ -1,0 +1,167 @@
+body {
+      scroll-behavior: smooth;
+    }
+    section {
+      height: 100vh;
+      padding: 100px 20px;
+      border-bottom: 1px solid #ddd;
+    }
+    .nav-link.active {
+      font-weight: bold;
+      color: #ffc107 
+    }
+     body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding-top: 80px;
+  }
+
+  .hero-image-wrapper {
+    position: relative;
+    background: linear-gradient(135deg, #d0eaff, #fff0f5);
+    padding: 2rem;
+    border-radius: 50px;
+    display: inline-block;
+  }
+
+  .hero-img {
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: auto;
+  }
+
+  .badge-box {
+    position: absolute;
+    background: white;
+    border-radius: 15px;
+    padding: 0.8rem 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .badge-universities {
+    top: 10px;
+    left: -30px;
+  }
+
+  .badge-students {
+    bottom: 10px;
+    right: -30px;
+  }
+
+  .btn-whatsapp {
+    border: 2px solid #007bff;
+    color: #007bff;
+    background: white;
+  }
+
+  .btn-whatsapp:hover {
+    background: #007bff;
+    color: white;
+  }
+
+  .btn-primary {
+    background-color: #002d80;
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background-color: #001f5c;
+  }
+
+.contact-section {
+  background-color: #0f3c84; 
+  height: auto;
+  margin-top: 10px;
+}
+.head{
+  margin-bottom: 120px;
+  text-align: center;
+}
+.whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+            text-align: center;
+            line-height: 60px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+            cursor: pointer;
+            z-index: 1000;
+        }
+
+.contact-section .form-control,
+.contact-section .form-select {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.contact-section .form-control::placeholder,
+.contact-section .form-select option {
+  color: #cfd8dc;
+}
+
+.contact-section .form-control:focus,
+.contact-section .form-select:focus {
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+}
+   .events-section {
+      background: radial-gradient(circle at center, #fff 0%, #f8f9fa 80%);
+      padding: 4rem 2rem;
+      position: relative;
+    }
+
+    .events-heading {
+      font-weight: 800;
+      font-size: 2.8rem;
+      position: relative;
+      display: inline-block;
+      color: #333;
+    }
+
+    .events-heading::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -10px;
+      width: 100%;
+      height: 4px;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Red_underline.svg/2560px-Red_underline.svg.png') no-repeat;
+      background-size: contain;
+    }
+
+    .camera-girl {
+      max-width: 100%;
+      position: relative;
+      z-index: 2;
+    }
+
+    .photo-thumbnail {
+      position: absolute;
+      width: 120px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      z-index: 1;
+    }
+
+    .btn-group-custom .btn {
+      border-radius: 30px;
+      margin: 0.5rem;
+      padding: 0.6rem 1.5rem;
+    }
